@@ -1,0 +1,41 @@
+{
+  "name": "node-micro-service",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha --timeout 10000"
+  },
+  "author": "Roshan Raj <roshanraj@live.com> (http://roshanraj.com/)",
+  "description": "Nodejs microserivce scaffolding",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.3",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "express-validator": "^4.1.0",
+    "graphql": "^14.4.2",
+    "mongoose": "^4.11.10",
+    "morgan": "^1.9.1",
+    "pug": "~2.0.0-beta11",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "keywords": [
+    "nodejs",
+    "microservice",
+    "rest api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roshanraj/node-micro-service.git"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^6.1.4"
+  }
+}
