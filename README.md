@@ -38,7 +38,3 @@ $ npm start
 ## Contributing
 
 Pull requests from the community is always welcome! .
-=======
-# node-micro-service
-node microservice built using node.js upon express.js
->>>>>>> d1c92c4b984358e0b86c7cb8b154c744ec421914
